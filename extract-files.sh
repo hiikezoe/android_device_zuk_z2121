@@ -31,7 +31,7 @@ function extract() {
         fi
         DIR=`dirname $DEST`
         if [ ! -d $BASE/$DIR ]; then
-	        mkdir -p $BASE/$DIR
+          mkdir -p $BASE/$DIR
         fi
         echo "Extracting /system/$FILE ..."
         if [ "$SRC" = "adb" ]; then
