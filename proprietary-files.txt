@@ -180,13 +180,15 @@ lib64/lib_fpc_tac_shared.so
 framework/cneapiclient.jar
 framework/com.qti.dpmframework.jar
 framework/com.qti.snapdragon.sdk.display.jar
+framework/com.qualcomm.location.vzw_library.jar
 framework/com.qualcomm.qti.GBAHttpAuthentication.jar
 framework/com.quicinc.cne.jar
 framework/ConnectivityExt.jar
 framework/dpmapi.jar
 framework/imscmlibrary.jar
-framework/qmapbridge.jar
 framework/qcrilhook.jar
+framework/qmapbridge.jar
+framework/qti-telephony-common.jar
 framework/rcsimssettings.jar
 framework/rcsservice.jar
 framework/tcmclient.jar
@@ -933,8 +935,12 @@ etc/firmware/rampatch_tlv_2.1.tlv
 etc/firmware/rampatch_tlv_3.0.tlv
 etc/firmware/rampatch_tlv_3.2.tlv
 
+etc/calib.cfg
 etc/flp.conf
 etc/gps.conf
+etc/izat.conf
+etc/thermal-engine.conf
+etc/init.qti.ims.sh
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
 etc/permissions/cneapiclient.xml
