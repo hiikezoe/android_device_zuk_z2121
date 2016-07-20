@@ -179,6 +179,7 @@ lib64/lib_fpc_tac_shared.so
 # framework
 framework/cneapiclient.jar
 framework/com.qti.dpmframework.jar
+framework/com.qti.location.sdk.jar
 framework/com.qti.snapdragon.sdk.display.jar
 framework/com.qualcomm.location.vzw_library.jar
 framework/com.qualcomm.qti.GBAHttpAuthentication.jar
@@ -186,6 +187,7 @@ framework/com.quicinc.cne.jar
 framework/ConnectivityExt.jar
 framework/dpmapi.jar
 framework/imscmlibrary.jar
+framework/oem-services.jar
 framework/qcnvitems.jar
 framework/qcrilhook.jar
 framework/qmapbridge.jar
@@ -195,6 +197,7 @@ framework/rcsservice.jar
 framework/tcmclient.jar
 framework/QtiTelephonyServicelibrary.jar
 framework/QPerformance.jar
+framework/WfdCommon.jar
 
 # vendor
 vendor/bin/audioflacapp
