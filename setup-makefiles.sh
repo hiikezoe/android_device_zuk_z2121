@@ -145,7 +145,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),gemini)
+ifeq (\$(TARGET_DEVICE),z2121)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
