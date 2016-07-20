@@ -3,6 +3,8 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 BOARD_HAVE_QCOM_FM := true
 TARGET_USES_NQ_NFC := false
 
+$(call inherit-product-if-exists, vendor/zuk/z2121/z2121-vendor.mk)
+
 #QTIC flag
 -include $(QCPATH)/common/config/qtic-config.mk
 
@@ -23,8 +25,11 @@ $(call inherit-product, device/qcom/common/common64.mk)
 
 PRODUCT_NAME := msm8996
 PRODUCT_DEVICE := msm8996
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := MSM8996 for arm64
+#PRODUCT_BRAND := Android
+#PRODUCT_MODEL := MSM8996 for arm64
+PRODUCT_BRAND := ZUK
+PRODUCT_MODEL := Z2
+PRODUCT_MANUFACTURER := Lenovo
 
 PRODUCT_BOOT_JARS += tcmiface
 
@@ -171,3 +176,8 @@ PRODUCT_AAPT_CONFIG += xlarge large
 #Android fingerprint daemon implementation
 PRODUCT_PACKAGES += \
     fingerprintd
+
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    device/qcom/msm8996/bootanimation.zip:system/media/bootanimation.zip
+
